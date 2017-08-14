@@ -266,7 +266,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 368382377}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.17
+  m_Radius: 0.2
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -350,12 +350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ca30f27a60bb0489a003d7e18ec66a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rf: {fileID: 368382382}
-  lf: {fileID: 1710921443}
+  rf: {fileID: 972994613}
+  lf: {fileID: 1578184994}
   rb: {fileID: 972994613}
   lb: {fileID: 1578184994}
-  speed: 100000
-  angle: 25
+  speed: -10000
+  angle: 30
 --- !u!1 &443661993 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 853554035d67ed8458014b199fd7d9d9, type: 3}
@@ -635,7 +635,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 972994608}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.17
+  m_Radius: 0.2
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -779,7 +779,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578184989}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.17
+  m_Radius: 0.2
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -826,7 +826,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1710921438}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.17
+  m_Radius: 0.2
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
