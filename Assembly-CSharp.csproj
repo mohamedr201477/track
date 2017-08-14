@@ -53,8 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
-     <Compile Include="Assets\sphere.cs" />
-     <Compile Include="Assets\track.cs" />
+     <Compile Include="Assets\text.cs" />
      <None Include="Assets\Low Poly Car Set 2 - Tuningcars\readme.txt" />
      <None Include="Assets\race-track-lake\readmore.txt" />
      <None Include="Assets\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
