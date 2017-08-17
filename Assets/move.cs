@@ -9,6 +9,7 @@ public class move : MonoBehaviour {
 	public WheelCollider lb;
 	public int speed;
 	public int angle;
+	public int brakeForce;
 
 
 	void Update(){
@@ -17,7 +18,13 @@ public class move : MonoBehaviour {
 		rf.steerAngle = Input.GetAxis ("Horizontal")* angle ;
 		lf.steerAngle = Input.GetAxis ("Horizontal")* angle ;
 
+		rb.brakeTorque = Input.GetAxis ("Jump") * brakeForce;
+		lb.brakeTorque = Input.GetAxis ("Jump") * brakeForce;
+		rf.brakeTorque = Input.GetAxis ("Jump") * brakeForce;
+		lf.brakeTorque = Input.GetAxis ("Jump") * brakeForce;
+
 	}
+
 
 	
 }
