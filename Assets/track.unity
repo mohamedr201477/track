@@ -335,7 +335,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 438285045}
   serializedVersion: 2
-  m_Mass: 1700
+  m_Mass: 2000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -358,9 +358,9 @@ MonoBehaviour:
   lf: {fileID: 1578184994}
   rb: {fileID: 972994613}
   lb: {fileID: 1578184994}
-  speed: -10000
-  angle: 30
-  brakeForce: 100000
+  speed: 100000
+  angle: 35
+  brakeForce: 200000
 --- !u!4 &438285050 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f7d448feb37725f468d47cdf5a03fc08, type: 3}
@@ -483,13 +483,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577142317}
-  m_LocalRotation: {x: 0, y: 0.9982087, z: -0, w: -0.059829008}
+  m_LocalRotation: {x: 0, y: 0.99916613, z: -0, w: -0.0408292}
   m_LocalPosition: {x: -0.1, y: 0.95, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 438285050}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 186.86, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 184.68, z: 0}
 --- !u!1 &785784090
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +914,14 @@ Prefab:
       objectReference: {fileID: 2100000, guid: a35469f12747e194ea483ef6962f85bc, type: 2}
     - target: {fileID: 11100000, guid: ce8d79c79d11b8f9d00076e98d76c639, type: 3}
       propertyPath: m_CullingType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: ce8d79c79d11b8f9d00076e98d76c639, type: 3}
+      propertyPath: m_PlayAutomatically
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: ce8d79c79d11b8f9d00076e98d76c639, type: 3}
+      propertyPath: m_AnimatePhysics
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1105,6 +1113,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f7d448feb37725f468d47cdf5a03fc08, type: 3}
       propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f7d448feb37725f468d47cdf5a03fc08, type: 3}
+      propertyPath: m_UpdateMode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
