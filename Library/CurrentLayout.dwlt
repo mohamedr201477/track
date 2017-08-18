@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 141
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -413,9 +413,9 @@ MonoBehaviour:
     height: 428
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c280000
-    m_LastClickedID: 10396
-    m_ExpandedIDs: 0cfcffff18fcffff000000009c280000
+    m_SelectedIDs: da280000
+    m_LastClickedID: 10458
+    m_ExpandedIDs: 0efcffff1afcffff0000000096280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -465,14 +465,14 @@ MonoBehaviour:
     width: 1048
     height: 428
   m_SceneLighting: 1
-  lastFramingTime: 41.047112956132075
+  lastFramingTime: 518.2949578015982
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 31.759598, y: 5.500394, z: -125.01178}
+    m_Target: {x: 25.11, y: 1.69, z: -127.27}
     speed: 2
-    m_Value: {x: 31.759598, y: 5.500394, z: -125.01178}
+    m_Value: {x: 25.11, y: 1.69, z: -127.27}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -495,17 +495,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0957345, y: 0.738503, z: -0.107331, w: -0.65873235}
+    m_Target: {x: -0.09573449, y: 0.73850304, z: -0.10733101, w: -0.65873235}
     speed: 2
-    m_Value: {x: -0.0957345, y: 0.738503, z: -0.107331, w: -0.65873235}
+    m_Value: {x: -0.09573449, y: 0.73850304, z: -0.10733101, w: -0.65873235}
   m_Size:
-    m_Target: 9.366338
+    m_Target: 22
     speed: 2
-    m_Value: 9.366338
+    m_Value: 22
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: -0.22337735, y: -0.01867553, z: 0.004278505, w: -0.97454375}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -576,19 +576,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 58
   m_LastProjectPath: C:\Users\Bassem\Desktop\track
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 16}
-    m_SelectedIDs: 10280000
-    m_LastClickedID: 10256
-    m_ExpandedIDs: 000000002a26000066270000c027000000ca9a3bffffff7f
+    m_SelectedIDs: 24260000
+    m_LastClickedID: 9764
+    m_ExpandedIDs: 000000002426000060270000ba27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a26000066270000c0270000
+    m_ExpandedIDs: 000000002426000060270000ba270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     y: 92
     width: 278
     height: 710
-  m_ScrollPosition: {x: 0, y: 127.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
