@@ -359,7 +359,7 @@ MonoBehaviour:
   rb: {fileID: 972994613}
   lb: {fileID: 1578184994}
   speed: 100000
-  angle: 35
+  angle: 45
   brakeForce: 200000
 --- !u!4 &438285050 stripped
 Transform:
